@@ -14,8 +14,6 @@ The script requires the following R packages to be installed:
 ### Connecting to the Ensembl BioMart
 The first step in the script is to connect to the Ensembl BioMart using the `useMart()` function from the `biomaRt` package. This function requires the name of the Ensembl BioMart database to use, which in this case is `"ensembl"`.
 
-`# Connect to the Ensembl BioMart`
-
 `ensembl <- useMart("ensembl")`
 
 ### Selecting the Datasets
